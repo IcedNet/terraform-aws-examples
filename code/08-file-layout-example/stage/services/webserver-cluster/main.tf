@@ -1,6 +1,6 @@
 # Configure the AWS provider
 provider "aws" {
-  region = "eu-west-1"
+  region = "us-east-1"
 }
 
 # Data source: query the list of availability zones
@@ -13,7 +13,7 @@ data "terraform_remote_state" "db" {
   config {
     bucket = "${var.db_remote_state_bucket}"
     key    = "${var.db_remote_state_key}"
-    region = "eu-west-1"
+    region = "us-east-1"
   }
 }
 

@@ -4,6 +4,6 @@ terraform {
   backend "s3" {
     bucket = "terraform-state-my-bucket"
     key    = "multi-repo-example/live/prod/services/webserver-cluster/terraform.tfstate"
-    region = "eu-west-1"
+    region = "us-east-1"
   }
 }
