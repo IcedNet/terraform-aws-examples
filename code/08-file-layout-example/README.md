@@ -57,6 +57,7 @@ It uses:
     aws_access_key_id = <your_access_key_id>
     aws_secret_access_key = <your_secret_access_key>
     ```
+  
     Substitute your own AWS credentials values for the values `<your_access_key_id>` and `<your_secret_access_key>`.
 
   * Environment variables `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`
